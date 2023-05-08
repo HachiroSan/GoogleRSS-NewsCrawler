@@ -1,0 +1,5 @@
+gnews==0.2.7
+newspaper3k==0.2.8
+nltk==3.8.1
+pandas==2.0.0
+spacy==3.5.2
