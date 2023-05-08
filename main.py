@@ -113,16 +113,16 @@ def crawl_news(keyword, limit):
 
 if __name__ == "__main__":
     # Check if the correct number of arguments are provided
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
         print("Usage: python main.py [keyword] [limit]")
         sys.exit(1)
 
-    # Clear the console
-    os.system("cls" if os.name == "nt" else "clear")
     # Get the arguments from sys.argv
     keyword = sys.argv[1]
-    limit = int(sys.argv[2])
+    limit = int(sys.argv[2]) if len(sys.argv) == 3 else 5
 
-    print()
+    # Clear the console
+    os.system("cls" if os.name == "nt" else "clear")
+
     # Call the CrawlNews function with the provided arguments
     news = crawl_news(keyword, limit)
