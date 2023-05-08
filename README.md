@@ -3,9 +3,7 @@ GoogleRSS-NewsCrawler is a Python tool that enables you to scrape news articles 
 
 To use the GoogleRSS-NewsCrawler, run the scrape.py script with the following command-line arguments:
 
-'''
-python scrape.py [keyword] [limit]
-'''
+`python scrape.py [keyword] [limit]`
 
 [keyword]: The keyword to search for news articles.
 [limit] (optional): The maximum number of news articles to scrape. If not provided, default value will be 5.
