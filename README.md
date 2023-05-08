@@ -8,7 +8,7 @@ To use the GoogleRSS-NewsCrawler, install the requirements.txt and run the scrap
 Usage :-
 
 * [keyword]: The keyword to search for news articles.
-* [limit] (optional): The maximum number of news articles to scrape. If not provided, the default value will be 5.
+* [limit] (optional): Set limit news. Default will scrape all of the news available.
 
 The tool will then extract relevant information from the RSS feeds, perform natural language processing on the articles' text, and export the data to a CSV file named data.csv.
 
