@@ -6,11 +6,11 @@
 # servicing, repair or correction.
 
 # CREDITS
-# This application was developed by M. Farhad from Abyres Enterprise Technologies Sdn Bhd.
-# Farhad is solely responsible for the development and maintenance of this application.
-# Abyres Enterprise Technologies  Sdn. Bhd. is not responsible for any issues, problems or damages that may arise from the
+# This application was developed by M. Farhad.
+# M. Farhad is solely responsible for the development and maintenance of this application.
+# M. Farhad  is not responsible for any issues, problems or damages that may arise from the
 # use of this application.
-# All the libraries used is solely owned by their respective owners. Abyres Enterprise Technologies Sdn. Bhd. does not
+# All the libraries used is solely owned by their respective owners. M. Farhad does not
 # claim ownership of any of the libraries used in this application.
 
 
